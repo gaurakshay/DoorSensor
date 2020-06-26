@@ -2,7 +2,7 @@
 from pygame import mixer
 
 mixer.init()
-file = "/home/pi/Documents/doorDetector/test.wav"
+file = "/home/pi/Documents/doorDetector/test.mp3"
 #file = "test.wav"
 sfile = mixer.Sound(file)
 sfile.play()
